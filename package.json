@@ -1,0 +1,23 @@
+{
+  "name": "mi-primer-app",
+  "version": "1.0.0",
+  "description": "Aprendiendo mas de de NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsantosqc/tips-nodejs.git"
+  },
+  "author": "Daniel San",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielsantosqc/tips-nodejs/issues"
+  },
+  "homepage": "https://github.com/danielsantosqc/tips-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
