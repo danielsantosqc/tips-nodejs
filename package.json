@@ -1,11 +1,12 @@
 {
   "name": "mi-primer-app",
   "version": "1.0.0",
-  "description": "Aprendiendo mas de de NodeJs",
-  "main": "app.js",
+  "description": "aprendiendo http",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
     "url": "https://github.com/danielsantosqc/tips-nodejs/issues"
   },
   "homepage": "https://github.com/danielsantosqc/tips-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
